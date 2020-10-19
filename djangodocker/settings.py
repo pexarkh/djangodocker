@@ -79,9 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'djangotodo',
-        'USER': 'djangotodo',
-        'PASSWORD': 'hunter2',
-        'HOST': 'localhost'
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'db'
     }
 }
 
